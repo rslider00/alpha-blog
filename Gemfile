@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 #gem 'puma'
 gem 'rails', '4.2.5.1'
 # Use sqlite3 as the database for Active Record
-gem 'bcrypt', '~> 3.1.7'
+
 
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.3.6'
@@ -27,7 +27,10 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
+
+gem 'will_paginate', '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
